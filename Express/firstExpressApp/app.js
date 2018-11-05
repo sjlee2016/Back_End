@@ -10,7 +10,7 @@ app.get("/", function(req, res)
 // "/bye" => "Good bye!"
 // "/dog"  => "MEOW!"
 //
-app.listen(3000, process.env.IP, function()
+app.listen(process.env.PORT, process.env.IP, function()
 {
     console.log("Server has started");
 });
