@@ -14,7 +14,7 @@ app.get("/search", function(req,res){
 app.get("/result", function(req, res){
     
     request('http://www.omdbapi.com/?s='+ req.query.title + '&apikey='+ APIKey, function (error, response, body) {
-        
+       
             var data = JSON.parse(body);
             //res.send(parsedData);
             res.render("result", { data : data });
