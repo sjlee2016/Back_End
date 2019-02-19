@@ -34,4 +34,7 @@ console.log(job); // Undefined
 function calculateAge(birthYear){
     return 2019 - birthYear;
 }
+var myAge = caculcateAge(1997);
+// 1990 is taken as birthYear in calculateAge function. and the result will be stored in age variable. 
 ```
+
