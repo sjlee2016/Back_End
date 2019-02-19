@@ -5,7 +5,7 @@ Javascript is a lightweight, cross-platform, object-oriented computer programmin
 Java script is one of the three core technologies of web development
 
 Client side: traditionally used
-Server side: possible due to nodeJS
+Server side: now possible due to nodeJS
 
 React and Angular are 100% based on Javascript.
 Hence, you need to learn javascript in order to use them.
@@ -86,4 +86,34 @@ ryujin.name = 'Ryujin';
 ryujin.birthYear = 2001;
 ryujin['job'] = 'Kpop star'; 
 console.log(ryujin);
+```
+## Objects and methods
+``` javascript
+var sejin = {
+    firstName: 'sejin',
+    lastName :'lee',
+    birthYear : 1997,
+    calcAge: function(birthYear){
+        this.age = 2019 - this.birthYear; 
+    }
+}; 
+sejin.calcAge(); 
+``` 
+
+## Loops and Iteration
+automate repetitive tasks through loops 
+```javascript
+for (var i = 1; i <= 10; i++) {
+    console.log(i); 
+}
+var i = 0;
+while (i<sejin.length){
+    if(typeof sejin[i] !== 'string'){
+        continue;
+    }else if(typeof sejin[i] == 'number') {
+        break; 
+    }
+    console.log(sejin[i]);
+    i++;
+}
 ```
