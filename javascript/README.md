@@ -48,7 +48,7 @@ var years = new Array(1997,1993, 1987); // not used as much.
 // how to access elements
 console.log(names[0]); // outputs Se Jin
 // how to mutate
-names[names.length] = 'Soo Ryong"; 
+names[names.length] = 'Soo Ryong'; 
 
 // Different data types
 var sejin = ['Se Jin', 'Lee', 1997, 'gamer', true];
