@@ -66,6 +66,24 @@ console.log(isGamer);
 ## Objects and properties
 
 ``` javascript
+var sejin = {
+    firstName: 'sejin',
+    lastName :'lee',
+    birthYear : 1997,
+    familyMember : ['Yejin', 'Yujin', 'Myunghee', 'SooRyoung'],
+    job : 'backend intern',
+    isMarried : false
+}; 
+// access by dot property or by brackets 
+console.log(sejin.lastName); 
+console.log(sejin['family']); 
+// mutate
+sejin.job = 'student';
+sejin['isMarried'] = true;
 
-
+var ryujin = new Object();
+ryujin.name = 'Ryujin';
+ryujin.birthYear = 2001;
+ryujin['job'] = 'Kpop star'; 
+console.log(ryujin);
 ```
