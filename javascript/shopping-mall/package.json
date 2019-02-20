@@ -1,0 +1,17 @@
+{
+  "name": "shopping-mall",
+  "version": "1.0.0",
+  "description": "Shopping website",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack"
+  },
+  "author": "Se Jin Lee",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "path": "^0.12.7",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  }
+}

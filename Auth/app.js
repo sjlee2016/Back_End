@@ -19,7 +19,7 @@ app.use(passport.initialize());
 app.use(passport.session());
 
 app.get("/", function(req,res){
-    res.render("home");
+    res.render("home", {currentUser : req.user});
 });
 
 app.get("/secret", isLoggedIn, function(req,res){
