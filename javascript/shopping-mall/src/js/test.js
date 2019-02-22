@@ -1,2 +1,2 @@
-console.log('this is running');
+// Global app controller
 export default 23;
